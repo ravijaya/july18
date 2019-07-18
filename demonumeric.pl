@@ -1,0 +1,10 @@
+use strict;
+use warnings;
+my $n = '3peter';
+$\ = "\n";
+print $n + $n;
+print $n.$n;
+print '';
+print 0.003;
+printf "%e\n", 3e-3;
+printf "%o, %x, %d\n", 15, 15, 15;
